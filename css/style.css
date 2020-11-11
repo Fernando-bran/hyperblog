@@ -17,7 +17,7 @@ body{
     font-size: 20px;
 }
 #cabecera{
-    background-color: cornflowerblue;
+    background-color: cornflowerblue url("../imagenes/ferchi.png");
     font-size: 30px;
     color: white;
     font-weight: bold;
