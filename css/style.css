@@ -1,6 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     color: #333;
-
+    background: black;
     font-family: Arial;
     text-align: center;
 }
@@ -9,18 +15,38 @@ body{
     width: 70%;
     padding: 1em;
     text-align: left;
-    border: 1px solid rgb(197, 197, 197);
+    border: 2px solid rgb(197, 197, 197);
     margin: 0 auto;
 }
 #container h1{
     color:cornflowerblue;
     font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#container p{
+    color: white;
+    font-size: 15px;
 }
 #cabecera{
-    background-color: cornflowerblue url("../imagenes/ferchi.png");
-    font-size: 30px;
-    color: white;
-    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin: auto 0;
+    background-color: royalblue;
     margin: 0;
     padding: 0.5cm;
+
+}
+
+#cabecera span img{
+    margin-right: 10px;
+    width: 50px;
+
+}
+#cabecera p{
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
 }
