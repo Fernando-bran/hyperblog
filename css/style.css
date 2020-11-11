@@ -18,6 +18,16 @@ body{
     border: 2px solid rgb(197, 197, 197);
     margin: 0 auto;
 }
+
+#piepagina{
+    width: auto;
+    height: 15px;
+    padding: 1em;
+    text-align: center;
+    border: 2px solid rgb(197, 197, 197);
+    margin: 0 auto; 
+}
+
 #container h1{
     color:cornflowerblue;
     font-size: 20px;
